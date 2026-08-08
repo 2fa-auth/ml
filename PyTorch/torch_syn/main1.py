@@ -32,7 +32,7 @@ if __name__ == "__main__":
     print(torch.linspace(1,5, 3))
     print(torch.linspace(1,5, 4))
 
-    print(torch.rand(2,3)) # случайные значения в диапозоне от 0 до 1
+    print(torch.rand(2,3)) # сучайные значения в диапозоне от 0 до 1
     print(torch.randn(2,3))
     # print(torch.manual_seed(1)) - чтобы при каждом запуске не было постоянной энтропии (один раз рандомно а потом нет)
 
