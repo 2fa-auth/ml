@@ -1,2 +1,9 @@
-venv/
+# виртуальное окружение python3
+/venv
+
 *.mp4
+*.mp3
+
+*.out
+*.tar.gz
+*.gz
