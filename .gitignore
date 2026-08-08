@@ -7,3 +7,5 @@
 *.out
 *.tar.gz
 *.gz
+
+sc.sh
