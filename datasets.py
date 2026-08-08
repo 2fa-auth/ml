@@ -1,5 +1,3 @@
-import torch
-
 from torchvision import datasets
 from torchvision.transforms.v2 import ToTensor
 
