@@ -3,8 +3,15 @@ import torch
 from iou import intersection_over_union
 
 def nms(bboxes, iou_threshold, threshold, box_format='corners'):
+  """
+  вычисление 'non maximum suppression' (подавление немаксимума):
+    iou_threshold - порог iou
+    threshold - порог уверенности
+    box_format - вид координат
+  """
   assert type(bboxes) == list
 
+  # bboxes = [[класс, вероятность, x1, y1, x2, y2], [...], [...], ...] - рамки 
   bboxes = [box for box in bboxes if box[1] > threshold]
   bboxes = sorted(bboxes, key=lambda x: x[1], reverse=True)
   bboxes_after_nms = []
