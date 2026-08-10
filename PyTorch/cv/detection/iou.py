@@ -1,7 +1,12 @@
 import torch 
 
 def intersection_over_union(boxes_preds, boxes_labels, box_format="midpoint"):
-
+  """
+  вычисление IoU:
+    boxes_preds - координаты 1-й ограничивающей рамки (bounding box)
+    boxes_labels - координаты 2-й ограничивающей рамки
+    box_format - формат описания огранич. рамки
+  """
   if box_format == "midpoint":
     box1_x1 = boxes_preds[..., 0:1] - boxes_preds[..., 2:3] / 2
     box1_y1 = boxes_preds[..., 1:2] - boxes_preds[..., 3:4] / 2
