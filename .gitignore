@@ -12,4 +12,4 @@
 sc.sh 
 
 # локальный pycache
-__pycache__
+__pycache__ 
