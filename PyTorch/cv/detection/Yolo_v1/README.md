@@ -1,3 +1,4 @@
 # реализация модели YOLO 
 
-### используя ютуб-ролик: [реализация YOLO v1]https://www.youtube.com/watch?v=n9_XyCGr-MI&t=3534s
+c использованием ютуб-ролика [автор **Aladdin Persson
+**]https://www.youtube.com/watch?v=n9_XyCGr-MI&t=3534s
