@@ -60,10 +60,7 @@ class YoloLoss(nn.Module):
     #    FOR BOX COORDINATES   #
     # ======================== #
     box_predictions = exists_box * (
-      (
-        bestbox * predictions[..., 26:30]
-        + (1 - bestbox) * predictions[..., 21:25]
-      )
+      (bestbox * predictions[..., 26:30] + (1 - bestbox) * predictions[..., 21:25])
     )
 
     box_targets = exists_box * target[..., 21:25]
@@ -94,7 +91,7 @@ class YoloLoss(nn.Module):
     )
 
     # ======================== # 
-    #   FOR NO OBJECT LLOSS    #
+    #   FOR NO OBJECT LOSS    #
     # ======================== #
     # (N, S, S, 1) - > (N, S*S)
     no_object_loss = self.mse(
