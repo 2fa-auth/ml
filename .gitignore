@@ -17,3 +17,6 @@ sc.sh
 
 # локальный pycache
 __pycache__ 
+
+# огромный dataset (5gb)
+PyTorch/cv/detection/Yolo_v1/data/
