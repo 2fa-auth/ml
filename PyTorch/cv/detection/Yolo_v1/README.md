@@ -1,4 +1,4 @@
-# реализация модели YOLO version 1
+# реализация модели YOLO 
 
 c использованием ютуб-ролика: https://www.youtube.com/watch?v=n9_XyCGr-MI&t=3534s
 

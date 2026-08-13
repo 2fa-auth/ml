@@ -21,7 +21,7 @@ class VOCDataset(torch.utils.data.Dataset):
     return len(self.annotations)
 
   def __getitem__(self, index):
-    label_path = os.path.join(self.label_dir, self.annotations.iloc[index, 2])
+    label_path = os.path.join(self.label_dir, self.annotations.iloc[index, 1])
     boxes = []
     with open(label_path) as f:
       for label in f.readlines():
