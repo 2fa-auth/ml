@@ -1,0 +1,48 @@
+*.pth.tar
+checkpoint.pth.tar
+last_checkpoint.pth.tar
+__pycache__/
+*.pyc
+.DS_Store
+# Датасеты и изображения
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.gif
+*.mp4
+*.avi
+*.mov
+
+# Данные для обучения
+data/
+datasets/
+images/
+labels/
+*.csv
+*.txt
+
+# Модели и чекпоинты
+*.pth
+*.pt
+*.pth.tar
+*.h5
+*.weights
+*.onnx
+*.pb
+
+# Логи и результаты
+logs/
+runs/
+outputs/
+checkpoints/
+wandb/
+
+# Виртуальное окружение
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
