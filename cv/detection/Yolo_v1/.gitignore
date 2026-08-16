@@ -1,0 +1,3 @@
+*.pth.tar
+checkpoint.pth.tar
+last_checkpoint.pth.tar

@@ -1,0 +1,11 @@
+# virtual environment
+venv/
+
+# all files mp4
+*.mp4
+
+# binary files
+*.out 
+
+# .tar.gz (наборы данных)
+*.tar.gz
